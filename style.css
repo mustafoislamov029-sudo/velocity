@@ -10,6 +10,7 @@
 .container {
     width: 940px;
     margin: 0 auto;
+    padding: 0 12px;
 
 }
 
@@ -76,7 +77,7 @@
     justify-content: center;
     gap: 117px;
     background-attachment: fixed;
-    
+
 }
 
 .btncl {
@@ -395,4 +396,45 @@ body {
     gap: 50px;
     justify-content: space-between;
     margin-top: 62px;
+}
+
+@media (max-width: 950px) {
+
+    .baner {
+        height: 80vh;
+        gap: 60px;
+        background-attachment: initial;
+        width: 100%;
+        background: none;
+
+    }
+
+    .turning {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: #192024;
+
+    }
+
+
+    .btncl {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        padding: 9px 24px 11px;
+        border-radius: 4px;
+    }
+
+    .btncl:nth-child(2) {
+        border: 1px solid #192024;
+        background: none;
+        color: #192024;
+    }
+
+    .baner-btn {
+        display: flex;
+        gap: 20px;
+    }
+
 }
